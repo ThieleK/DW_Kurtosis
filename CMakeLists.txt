@@ -2,17 +2,17 @@ cmake_minimum_required(VERSION 2.8.7)
 
 #-----------------------------------------------------------------------------
 if(NOT Slicer_SOURCE_DIR)
-  set(EXTENSION_NAME DWModeling)
+  set(EXTENSION_NAME DW_Fits)
   set(EXTENSION_HOMEPAGE "")
   set(EXTENSION_CATEGORY "Examples")
-  set(EXTENSION_CONTRIBUTORS "Andriy Fedorov (SPL/BWH)")
+  set(EXTENSION_CONTRIBUTORS "Andriy Fedorov - Thiele Kobus (SPL/BWH)")
   set(EXTENSION_DESCRIPTION "Modeling from Diffusion Weighted Imaging")
   set(EXTENSION_ICONURL "")
   set(EXTENSION_SCREENSHOTURLS "")
 endif()
 
 #-----------------------------------------------------------------------------
-set(MODULE_NAME DWModeling)
+set(MODULE_NAME DW_Kurtosis)
 
 #-----------------------------------------------------------------------------
 if(NOT Slicer_SOURCE_DIR)
